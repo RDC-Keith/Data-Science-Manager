@@ -13,13 +13,6 @@
       padding: 0;
       background-color: #f9f9f9;
     }
-    #matrix-banner {
-      width: 100%;
-      height: 200px;
-      background: black;
-      overflow: hidden;
-      position: relative;
-    }
     .container {
       width: 60%;
       margin: 2em auto;
@@ -28,6 +21,13 @@
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
       border-radius: 8px;
       border: 1px solid #e0e0e0;
+    }
+    #matrix-banner {
+      width: 100%;
+      height: 100px;
+      background: white;
+      overflow: hidden;
+      position: relative;
     }
     details {
       margin-bottom: 1.5em;
@@ -52,13 +52,17 @@
     a:hover {
       text-decoration: underline;
     }
+    .banner-space {
+      margin-bottom: 1em;
+    }
   </style>
 </head>
 <body>
-  <!-- Matrix-style banner -->
-  <div id="matrix-banner"></div>
-
   <div class="container">
+    <!-- Matrix-style banner -->
+    <div id="matrix-banner"></div>
+    <div class="banner-space"></div>
+
     <center><h2><strong>Data Science Manager @ Realtor.com</strong></h2></center>
     <p>
       Realtor.com is searching for a passionate and innovative <strong>Data Science Manager</strong> to join our high-performing analytics organization. 
@@ -68,6 +72,75 @@
       balance hands-on technical work with team leadership, shaping strategy and driving measurable outcomes for a platform serving 
       <strong>100+ million unique monthly users</strong>. With potential to grow and assume leadership of additional teams, this is your chance to 
       make a significant impact in a data-driven, forward-thinking organization.
+    </p>
+
+    <details>
+      <summary>📊 REPORTING STRUCTURE</summary>
+      <h4>Who You Report To</h4>
+      <p>
+        ⮡ This role reports directly to <a href="https://www.linkedin.com/in/liuliei/">Kevin Liu</a>, our Director of Commercial Data Science & Analytics. Kevin reports to <a href="https://www.linkedin.com/in/twroblewski/">Ted Wroblewski</a>, our VP Data Science and Analytics, and Ted reports to  
+        <a href="https://www.linkedin.com/in/vidya-krishnakumar-29007814/">Vidya Krishnakumar</a>, our SVP of Data Science and Analytics.
+      </p>
+      <p>⮡ Realtor.com’s Data Science & Analytics organization is strategically aligned under the CFO instead of our CTO.</p>
+
+      <h4>Why It Matters</h4>
+      <p>
+        ⮡ RDC aligns data science with financial strategy to drive high-impact decisions that optimize revenue and growth. With this structure, 
+        you’ll not only gain visibility but also work closely with stakeholders across marketing, product, and digital media teams to influence decisions 
+        at the highest level.
+      </p>
+    </details>
+
+    <details>
+      <summary>🔍 SCOPE OF THE ROLE</summary>
+      <h4>Initial Responsibilities</h4>
+      <p>
+        ⮡ Lead the <strong>Digital Media</strong> and <strong>Lender (Mortgage)</strong> teams, focusing on optimizing digital media spend through predictive modeling, 
+        improving monetization strategies, and leveraging advanced experimentation techniques like multi-armed bandit models.
+      </p>
+      <h4>Potential for Growth</h4>
+      <p>
+        ⮡ If you perform exceptionally, you may have the opportunity to expand your scope to include the <strong>Marketing Data Science team</strong>, 
+        working on exciting challenges like consumer segmentation, media mix modeling, and personalization at scale. RDC loves to grow talent, and 
+        this role has clear pathways for leadership development.
+      </p>
+    </details>
+
+    <details>
+      <summary>🌟 JOIN A BEST-IN-CLASS TEAM, MAKE A BIG IMPACT</summary>
+      <p>
+        ⮡ Be part of a <strong>respected and strategic analytics team</strong> that directly drives decisions at Realtor.com. This isn’t a "data monkey" role—you’ll shape strategy and influence the future of a platform with <strong>100+ million unique monthly users</strong>. 🌍<br>
+        ⮡ Your work will drive real results in <strong>engagement, revenue growth</strong>, and innovation across sales, marketing, and product. <strong>High visibility, high impact</strong>—you’ll see your contributions make a difference. 🚀<br>
+        ⮡ Collaborate with data science leaders across Realtor.com to bring innovative solutions to problems in digital advertising and customer experience.  
+      </p>
+    </details>
+
+    <details>
+      <summary>🤝 A PLAYER-COACH ROLE THAT EMPOWERS LEADERSHIP</summary>
+      <p>
+        ⮡ Lead by example as a "player-coach." Mentor a talented team while staying hands-on with technical projects. 💻<br>
+        ⮡ You’ll manage high-caliber individual contributors like staff data scientists and analysts, while remaining deeply involved in key projects that matter.<br>
+        ⮡ Perfect for someone who loves <strong>balancing leadership with innovation</strong>. Whether you’re mentoring team members or building new solutions, your role will be pivotal in RDC’s success. 🌱  
+      </p>
+    </details>
+
+    <hr>
+    <h3>Ready to Make an Impact?</h3>
+    <p>
+      We aren’t listing this role publicly due to the anticipated candidate volume. Instead, we are conducting a very focused search, and my outreach is the only information you’ll receive about this opportunity. If this role interests you, please don’t hesitate to book a quick chat.
+    </p>
+    <p>
+      <a href="https://calendly.com/keith-realtor-dot-com/ta-chat">Book a Coffee Chat</a>
+    </p>
+    <p>
+      For any immediate questions or further information, feel free to reach out directly:
+    </p>
+    <p>
+      <strong>Keith Punches</strong><br>
+      Sr. Technical Recruiter<br>
+      1.408.497.0573<br>
+      <a href="mailto:keith.punches.contractor@realtor.com">keith@realtor.com</a><br>
+      <a href="https://www.linkedin.com/in/keithpunches">LinkedIn</a>
     </p>
   </div>
 
@@ -81,8 +154,8 @@
         parentId: 'matrix-banner',
         font: 'monospace',
         charSize: [10, 20],
-        bg: '#000000',
-        fg: '#FFFFFF',
+        bg: '#FFFFFF', // Pure white background
+        colors: ['#000000', '#333333', '#666666', '#999999', '#CCCCCC', '#F5F5F5'], // Shades of black, gray, and off-white
         densityFactor: 20,
         fps: 30,
       });
