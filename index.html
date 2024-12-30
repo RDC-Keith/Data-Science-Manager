@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Data Science Manager @ Realtor.com</title>
+  <script src="https://cdn.jsdelivr.net/npm/rain-char"></script>
   <style>
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -11,6 +12,13 @@
       margin: 0;
       padding: 0;
       background-color: #f9f9f9;
+    }
+    #matrix-banner {
+      width: 100%;
+      height: 200px;
+      background: black;
+      overflow: hidden;
+      position: relative;
     }
     .container {
       width: 60%;
@@ -47,6 +55,9 @@
   </style>
 </head>
 <body>
+  <!-- Matrix-style banner -->
+  <div id="matrix-banner"></div>
+
   <div class="container">
     <center><h2><strong>Data Science Manager @ Realtor.com</strong></h2></center>
     <p>
@@ -146,5 +157,19 @@
       <a href="https://www.linkedin.com/in/keithpunches">LinkedIn</a>
     </p>
   </div>
+
+  <script>
+    // Initialize the Matrix banner effect
+    const rain = new RainChar({
+      parentId: 'matrix-banner',
+      font: 'monospace',
+      charSize: [10, 20],
+      bg: '#000000',
+      fg: '#FFFFFF',
+      densityFactor: 20,
+      fps: 30,
+    });
+    rain.start();
+  </script>
 </body>
 </html>
