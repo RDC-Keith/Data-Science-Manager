@@ -5,36 +5,50 @@ Realtor.com is searching for a passionate and innovative **Data Science Manager*
 ---
 
 <details>
-  <summary>### 📊 Reporting Structure</summary>
-  This role reports directly to **Kevin Liu, Director of Commercial Data Science & Analytics**, and operates within Realtor.com’s **Data Science & Analytics organization**, strategically aligned under the **CFO**. This unique structure highlights RDC’s commitment to ensuring that data science is at the heart of business strategy, influencing high-impact decisions that drive revenue growth and efficiency. Reporting to the CFO emphasizes measurable outcomes and positions the data science team as a key player in RDC’s financial success.
+  <summary>📊 REPORTING STRUCTURE</summary>
+
+  **Who You Report To**  
+  This role reports directly to **Kevin Liu, Director of Commercial Data Science & Analytics**, and operates within Realtor.com’s **Data Science & Analytics organization**, strategically aligned under the **CFO**.  
+
+  **Why It Matters**  
+  RDC aligns data science with financial strategy to drive high-impact decisions that optimize revenue and growth.
 </details>
 
 <details>
-  <summary>### 🔍 Scope of the Role</summary>
-  Initially, you’ll lead the **Media** and **Lender (Mortgage)** teams, tackling projects in digital advertising, media monetization, and predictive modeling. If you perform exceptionally, there’s an opportunity to expand your scope to include the **Marketing Data Science team**, giving you even greater influence over RDC’s data strategy. This is your chance to grow within a dynamic and strategically aligned team while making a tangible difference across multiple high-visibility business areas.
+  <summary>🔍 SCOPE OF THE ROLE</summary>
+
+  **Initial Responsibilities**  
+  Lead the **Media** and **Lender (Mortgage)** teams, tackling projects in digital advertising, media monetization, and predictive modeling.  
+
+  **Potential for Growth**  
+  If you perform exceptionally, you may have the opportunity to expand your scope to include the **Marketing Data Science team**, further broadening your influence over RDC’s data strategy.
 </details>
 
 <details>
-  <summary>### 🌟 Join a Best-in-Class Team, Make a Big Impact</summary>
+  <summary>🌟 JOIN A BEST-IN-CLASS TEAM, MAKE A BIG IMPACT</summary>
+
   - Be part of a **respected and strategic analytics team** that directly drives decisions at Realtor.com. This isn’t a "data monkey" role—you’ll shape strategy and influence the future of a platform with **100+ million unique monthly users**. 🌍
   - Your work will drive real results in **engagement, revenue growth**, and innovation across sales, marketing, and product. **High visibility, high impact**—you’ll see your contributions make a difference. 🚀
 </details>
 
 <details>
-  <summary>### 🤝 A Player-Coach Role that Empowers Leadership</summary>
+  <summary>🤝 A PLAYER-COACH ROLE THAT EMPOWERS LEADERSHIP</summary>
+
   - Lead by example as a "player-coach." Mentor a talented team while staying hands-on with technical projects. 💻
   - Perfect for someone who loves **balancing leadership with innovation**. Whether you’re mentoring team members or building new solutions, your role will be pivotal in RDC’s success. 🌱
 </details>
 
 <details>
-  <summary>### 🛠️ Work with Cutting-Edge Tools and Projects</summary>
-  - Dive into exciting challenges like **dynamic pricing, predictive modeling, media monetization**, and customer segmentation.
+  <summary>🛠️ WORK WITH CUTTING-EDGE TOOLS AND PROJECTS</summary>
+
+  - Dive into exciting challenges like **dynamic pricing, predictive modeling, media monetization**, and customer segmentation.  
   - Use state-of-the-art tools like **Snowflake, Python, and Tableau** and work with advanced methodologies like **Bayesian A/B testing and multi-armed bandit models**. 🎯
 </details>
 
 <details>
-  <summary>### ✨ Flexibility Meets a Thriving Culture</summary>
-  - Join a company with a **data-driven culture** where your insights are valued and championed by executive leadership.
+  <summary>✨ FLEXIBILITY MEETS A THRIVING CULTURE</summary>
+
+  - Join a company with a **data-driven culture** where your insights are valued and championed by executive leadership.  
   - Work in vibrant hubs like **Austin** or **Scottsdale**, with a hybrid setup that balances your career ambitions and personal life. ✨
 </details>
 
@@ -51,3 +65,5 @@ For any immediate questions or further information, feel free to reach out direc
 **Keith Punches**  
 Sr. Technical Recruiter  
 1.408.497.0573  
+[keith@realtor.com](mailto:keith.punches.contractor@realtor.com)  
+[LinkedIn](https://www.linkedin.com/in/keithpunches)  
