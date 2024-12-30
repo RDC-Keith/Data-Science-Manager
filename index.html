@@ -25,9 +25,11 @@
     #matrix-banner {
       width: 100%;
       height: 100px;
-      background: white;
-      overflow: hidden;
       position: relative;
+      background: white;
+      margin: 0 -20px; /* Stretch beyond container */
+      padding: 0;
+      overflow: hidden;
     }
     details {
       margin-bottom: 1.5em;
@@ -124,44 +126,38 @@
       </p>
     </details>
 
-    <hr>
-    <h3>Ready to Make an Impact?</h3>
-    <p>
-      We aren’t listing this role publicly due to the anticipated candidate volume. Instead, we are conducting a very focused search, and my outreach is the only information you’ll receive about this opportunity. If this role interests you, please don’t hesitate to book a quick chat.
-    </p>
-    <p>
-      <a href="https://calendly.com/keith-realtor-dot-com/ta-chat">Book a Coffee Chat</a>
-    </p>
-    <p>
-      For any immediate questions or further information, feel free to reach out directly:
-    </p>
-    <p>
-      <strong>Keith Punches</strong><br>
-      Sr. Technical Recruiter<br>
-      1.408.497.0573<br>
-      <a href="mailto:keith.punches.contractor@realtor.com">keith@realtor.com</a><br>
-      <a href="https://www.linkedin.com/in/keithpunches">LinkedIn</a>
-    </p>
+    <details>
+      <summary>🛠️ WORK WITH CUTTING-EDGE TOOLS AND PROJECTS</summary>
+      ⮡ Dive into exciting challenges like dynamic pricing, predictive modeling, media monetization, and customer segmentation.  
+      ⮡ Use state-of-the-art tools like Snowflake, Python, and Tableau and work with advanced methodologies like Bayesian A/B testing and multi-armed bandit models. 🎯  
+      ⮡ Build scalable machine learning models that drive business value and establish ML Ops pipelines for sustained model performance.  
+    </details>
+
+    <details>
+      <summary>✨ FLEXIBILITY MEETS A THRIVING CULTURE</summary>
+      ⮡ Join a company with a data-driven culture where your insights are valued and championed by executive leadership.  
+      ⮡ Work in vibrant hubs like Austin or Scottsdale, with a hybrid setup that balances your career ambitions and personal life. ✨  
+      ⮡ Be part of a collaborative and innovative environment that values curiosity, teamwork, and high performance.  
+    </details>
   </div>
 
   <script>
-    // Wait until the DOM is fully loaded
+    // Initialize Matrix banner after DOM loads
     document.addEventListener("DOMContentLoaded", () => {
-      console.log("DOM fully loaded. Initializing RainChar...");
+      console.log("Initializing RainChar...");
 
-      // Initialize the RainChar effect
       const rain = new RainChar({
         parentId: 'matrix-banner',
         font: 'monospace',
         charSize: [10, 20],
-        bg: '#FFFFFF', // Pure white background
-        colors: ['#000000', '#333333', '#666666', '#999999', '#CCCCCC', '#F5F5F5'], // Shades of black, gray, and off-white
-        densityFactor: 20,
+        bg: '#FFFFFF', // White background
+        colors: ['#000000', '#333333', '#666666', '#CCCCCC', '#F5F5F5'], // Black, gray, and off-white characters
+        densityFactor: 30,
         fps: 30,
       });
 
       rain.start();
-      console.log("RainChar successfully started!");
+      console.log("RainChar initialized!");
     });
   </script>
 </body>
