@@ -24,15 +24,17 @@
       position: relative;
     }
     #matrix-banner {
-      position: relative;
-      width: 5000px !important; /* Ensure the banner stretches far */
-      height: 100px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 150px;
       background: white;
       overflow: hidden;
-      margin: 0 auto;
+      z-index: -1;
     }
     .banner-space {
-      height: 120px; /* Added spacing to ensure the title isn't hidden */
+      margin-top: 150px; /* Adjusted to ensure the title appears below the banner */
     }
     details {
       margin-bottom: 1.5em;
@@ -62,7 +64,9 @@
 <body>
   <div class="container">
     <!-- Matrix-style banner -->
-    <div id="matrix-banner"></div>
+    <div id="matrix-banner">
+      <canvas width="8000" height="150"></canvas>
+    </div>
     <div class="banner-space"></div>
 
     <center><h2><strong>Data Science Manager @ Realtor.com</strong></h2></center>
