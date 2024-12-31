@@ -34,7 +34,7 @@
       z-index: -1;
     }
     .banner-space {
-      margin-top: 150px; /* Adjusted to ensure the title appears below the banner */
+      margin-top: 150px; /* Ensures the title is below the banner */
     }
     details {
       margin-bottom: 1.5em;
@@ -65,7 +65,7 @@
   <div class="container">
     <!-- Matrix-style banner -->
     <div id="matrix-banner">
-      <canvas width="8000" height="150"></canvas>
+      <canvas id="matrix-canvas" width="5000" height="150"></canvas>
     </div>
     <div class="banner-space"></div>
 
@@ -169,18 +169,27 @@
     document.addEventListener("DOMContentLoaded", () => {
       console.log("Initializing RainChar...");
 
+      // Initialize RainChar
       const rain = new RainChar({
         parentId: 'matrix-banner',
         font: 'monospace',
         charSize: [10, 20],
         bg: '#FFFFFF', // White background
-        colors: ['#000000 !important', '#333333 !important', '#666666 !important', '#CCCCCC !important', '#F5F5F5 !important'], // Black, gray, and off-white characters
+        colors: ['#000000', '#333333', '#666666', '#CCCCCC', '#F5F5F5'], // Black, gray, and off-white characters
         densityFactor: 20,
         fps: 30,
       });
 
       rain.start();
-      console.log("RainChar successfully started!");
+
+      // Override the canvas size after RainChar initializes
+      const canvas = document.querySelector('#matrix-banner canvas');
+      if (canvas) {
+        canvas.width = 5000; // Set the width to 5000
+        canvas.height = 150; // Set the height to 150
+      }
+
+      console.log("RainChar successfully started and canvas size overridden!");
     });
   </script>
 </body>
