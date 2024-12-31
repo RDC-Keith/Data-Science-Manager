@@ -64,9 +64,7 @@
 <body>
   <div class="container">
     <!-- Matrix-style banner -->
-    <div id="matrix-banner">
-      <canvas id="matrix-canvas" width="5000" height="150"></canvas>
-    </div>
+    <div id="matrix-banner"></div>
     <div class="banner-space"></div>
 
     <center><h2><strong>Data Science Manager @ Realtor.com</strong></h2></center>
@@ -147,13 +145,7 @@
     <hr>
     <h3>Ready to Make an Impact?</h3>
     <p>
-      We aren’t listing this role publicly due to the anticipated candidate volume. Instead, we are conducting a very focused search, and my outreach is the only information you’ll receive about this opportunity. If this role interests you, please don’t hesitate to book a quick chat.
-    </p>
-    <p>
       <a href="https://calendly.com/keith-realtor-dot-com/ta-chat">Book a Coffee Chat</a>
-    </p>
-    <p>
-      For any immediate questions or further information, feel free to reach out directly:
     </p>
     <p>
       <strong>Keith Punches</strong><br>
@@ -182,14 +174,13 @@
 
       rain.start();
 
-      // Override the canvas size after RainChar initializes
+      // Override canvas size programmatically
       const canvas = document.querySelector('#matrix-banner canvas');
       if (canvas) {
-        canvas.width = 5000; // Set the width to 5000
-        canvas.height = 150; // Set the height to 150
+        canvas.width = 5000; // Ensure width is set to 5000
+        canvas.height = 150; // Ensure height is set to 150
+        console.log("Canvas dimensions manually adjusted.");
       }
-
-      console.log("RainChar successfully started and canvas size overridden!");
     });
   </script>
 </body>
