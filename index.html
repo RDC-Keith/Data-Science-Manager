@@ -24,16 +24,15 @@
       position: relative;
     }
     #matrix-banner {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
+      position: relative;
+      width: 5000px !important; /* Ensure the banner stretches far */
       height: 100px;
       background: white;
       overflow: hidden;
+      margin: 0 auto;
     }
     .banner-space {
-      margin-bottom: 1em;
+      height: 120px; /* Added spacing to ensure the title isn't hidden */
     }
     details {
       margin-bottom: 1.5em;
@@ -171,7 +170,7 @@
         font: 'monospace',
         charSize: [10, 20],
         bg: '#FFFFFF', // White background
-        colors: ['#000000', '#333333', '#666666', '#CCCCCC', '#F5F5F5'], // Black, gray, and off-white characters
+        colors: ['#000000 !important', '#333333 !important', '#666666 !important', '#CCCCCC !important', '#F5F5F5 !important'], // Black, gray, and off-white characters
         densityFactor: 20,
         fps: 30,
       });
