@@ -18,22 +18,22 @@
       align-items: center;
       height: 100vh;
     }
-    .responsive-image {
-      max-width: 100%;
-      height: auto;
-      border-radius: 8px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    }
     .container {
       width: 90%;
       max-width: 800px;
-      margin: 2em auto;
-      padding: 1.5em;
+      margin: 20px auto;
+      padding: 20px;
       background: white;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      border-radius: 8px;
-      border: 1px solid #e0e0e0;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
       position: relative;
+      text-align: left;
+    }
+    .responsive-image {
+      display: block;
+      margin: 0 auto 20px;
+      max-width: 100%;
+      height: auto;
     }
     details {
       margin-bottom: 1.5em;
@@ -67,9 +67,6 @@
       summary {
         font-size: 1em;
       }
-      .banner-space {
-        margin-top: 100px;
-      }
     }
 
     @media (orientation: landscape) {
@@ -81,7 +78,7 @@
 </head>
 <body>
   <div class="container">
-    <img src="rdc.png" alt="Realtor.com Logo" class="responsive-image">
+    <img src="image.png" alt="Realtor.com Logo" class="responsive-image">
     <center><h2><strong>Data Science Manager</strong></h2></center>
     <p>
       Realtor.com is searching for a passionate and innovative <strong>Data Science Manager</strong> to join our high-performing analytics organization. 
